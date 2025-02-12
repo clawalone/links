@@ -5,6 +5,8 @@ import 'package:meditation/screen/home/home_screen.dart';
 import 'package:meditation/screen/meditate/meditate_screen.dart';
 import 'package:meditation/screen/music/music_screen.dart';
 import 'package:meditation/screen/sleep/sleep_screen.dart';
+import 'package:meditation/screen/home/profile.dart';
+
 
 class MainTabViewScreen extends StatefulWidget {
   const MainTabViewScreen({super.key});
@@ -41,7 +43,8 @@ class _MainTabViewScreenState extends State<MainTabViewScreen> with SingleTicker
         const SleepScreen(),
         const MeditateScreen(),
         const MusicScreen(),
-        Container( color: Colors.red, )
+        ProfilePage(),
+        Container( color: Colors.blue, )
       ]),
       bottomNavigationBar: Container(
         padding: const EdgeInsets.only(top: 15, bottom: 8),
