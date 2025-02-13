@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483341784812",
+    "project_id": "relax-6472d",
+    "storage_bucket": "relax-6472d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483341784812:android:659b5af26ad551115e77c9",
+        "android_client_info": {
+          "package_name": "com.codeforany.meditation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgS87Z18QQ9yPIhYITanGfisTPEYNZxk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -57,7 +57,7 @@ class _StartUpScreenState extends State<StartUpScreen> {
           RoundButton(
               title: "SIGN UP",
               onPressed: () {
-                context.push(const WelcomeScreen());
+                context.push(const SignUpScreen());
               }),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
